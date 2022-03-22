@@ -1,0 +1,231 @@
+body {
+    min-width: 1920px;
+    font-family: "Gilroy light";
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+h2 {
+    font-family: "Noto Serif", serif;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    font-style: normal;
+    margin-bottom: 15px;
+}
+h1 {
+    font-family: "Noto Serif", serif;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.header {
+    background: url("img/header_bg.png");
+
+    background-size: cover;
+}
+.logo {
+    max-width: 216px;
+    height: 52px;
+    position: relative;
+    top: -15px;
+}
+.firts__diamond {
+    position: relative;
+    top: -42px;
+    right: -180px;
+}
+.second__diamond {
+    position: relative;
+    top: -42px;
+    right: 10px;
+}
+.header__menu {
+    max-width: 1135px;
+    line-height: 21px;
+    color: white;
+    margin: 0 auto;
+    display: flex;
+    font-size: 14px;
+    padding-top: 43px;
+}
+.header__menu svg:hover {
+    cursor: pointer;
+}
+.left__items a {
+    text-decoration: none;
+    color: white;
+    padding-left: 40px;
+}
+.left__items {
+    word-spacing: 40px;
+    margin-right: 126px;
+    display: flex;
+}
+.right__items {
+    margin-left: 102px;
+}
+.right__items a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+.main{
+    background-color:  #f1f2f4;
+    height: 100%;
+    padding: 100px 0px;
+
+}
+.delivery__wrapper{
+    margin:  0px auto;
+    max-width: 1000px;
+}
+.delivery{
+    background-color: white;
+    width: 100%;
+    padding: 30px 100px;
+}
+.moscow{
+    display: flex;
+    justify-content: space-between;
+    transition: 0.5s;
+    
+}
+.moscow:hover{
+    cursor: pointer;
+    color: rgba(128, 128, 128, 0.589);
+}
+.SvgIcon_svgIcon_normal {
+    width: 24px;
+    height: 24px;
+    color: inherit;
+}
+.SvgIcon_svgIcon {
+    display: inline-block;
+    line-height: 0;
+    color: inherit;
+    fill: currentColor;
+    cursor: inherit;
+    pointer-events: inherit;
+}
+.menu__box{
+    line-height: 40px;
+    border-left: 3px solid rgba(128, 128, 128, 0.589);
+    padding-left: 20px;
+    display:none;
+    transition: 1s;    
+}
+.menu__box2{
+    line-height: 40px;
+    border-left: 3px solid rgba(128, 128, 128, 0.589);
+    padding-left: 20px;
+    display: none;
+    transition: 1s;    
+}
+
+
+
+
+
+
+
+
+
+
+.go__buy{
+    text-align: center;
+    background-color:#333333 ;
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    transition: 0.5s;
+    margin-top: 30px;
+}
+.go__buy:hover{
+    opacity: 0.9;
+}
+.feedback {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 65px;
+    padding-bottom: 20px;
+    max-width: 1100px;
+    margin: 0 auto;
+    font-size: 14px;
+}
+
+.usefull__links p {
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+}
+.usefull__links a {
+    text-decoration: none;
+    margin-top: 15px;
+    color: #333333;
+}
+.pay p {
+    width: 255px;
+    padding-top: 19px;
+    line-height: 21px;
+}
+.footer__titles {
+    font-size: 18px;
+    font-weight: 500px;
+    line-height: 25px;
+}
+.banks {
+    padding-top: 21px;
+}
+.contacts p {
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+}
+.contacts svg {
+    padding-top: 15px;
+}
+.contacts a {
+    padding-top: 15px;
+    text-decoration: none;
+    position: relative;
+    left: 20px;
+    color: #333333;
+}
+.social__footer {
+    padding-top: 5px;
+}
+.social__footer p {
+    padding-top: 15px;
+    width: 255px;
+    line-height: 21px;
+}
+.ikons {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    margin-top: 20px;
+}
+.feedback hr {
+    width: 255px;
+}
+.last {
+    max-width: 1110px;
+    margin: 20px auto;
+    justify-content: space-between;
+    line-height: 21px;
+    font-size: 14px;
+    display: flex;
+}
+.last a {
+    text-decoration: none;
+    color: #333333;
+}
